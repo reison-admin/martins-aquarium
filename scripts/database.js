@@ -20,7 +20,7 @@ const database = {
             id: 2,
             name: "Polly",
             diet: "Algae",
-            size: 8,
+            size: 5,
             image: "polly.jpg",
             species: "Pollius ohmygawdicus",
             harvestedFrom: "France"
@@ -40,7 +40,7 @@ const database = {
             id: 4,
             name: "Alfred",
             diet: "Salad",
-            size: 1,
+            size: 10,
             image: "alfred.jpg",
             species: "Niceus fisheus",
             harvestedFrom: "United Kingdom"

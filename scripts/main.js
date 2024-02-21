@@ -15,6 +15,7 @@ const parentHTMLElement = document.querySelector(".fish-list")
 parentHTMLElement.innerHTML = fishList()
 const allFish = getFish();
 
+
 for (const fish of allFish) {
     console.log(fish.name);
     
