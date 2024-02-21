@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 3px;
+
+}
+
+.title {
+    flex: 0 1 70px;
+    background-color: blue;
+    padding: 8px;
+    text-align: center;
+
+}
+
+.title__text {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.section-container {
+    flex: 1;
+    display: flex;
+    align-items: stretch;
+    gap: 4px;
+
+}
+
+.fish-list {
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+    align-items: stretch;
+    /* height: 1000px; */
+    background-color: purple;
+/*  border: 1px solid blue; */
+    padding: 5px;
+    color: white;
+    gap: 10px;
+    
+}
+
+.sidebar {
+    flex: 0 1 300px;
+    background-color: cornflowerblue;
+    border: 1px solid cornflowerblue;
+    height: 1000px;
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.sidebar__fish-maintenance-info {
+    background-color: aquamarine;
+}
+
+.sidebar__travel-tips-list {
+    background-color: aqua;
+}
+
+.sidebar__harvest-location-list {
+    background-color: azure;
+}
+
+.fish-card {
+    background-color: darkblue;
+    flex-basis: 20%;
+    text-align: center;
+}

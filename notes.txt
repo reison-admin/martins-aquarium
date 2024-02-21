@@ -1,0 +1,47 @@
+
+
+
+You continue to pull your notebook and a pen out of your bag, and ask, "So you said that you wanted multiple sections on your site - one that lists the fish you currently own, and another one that lists all the places that you've visited to collect the fish..."
+
+"Harvest the fish," Martin interjects with a forced smile.
+
+
+Martin leans forward and put his hands on the table, "Actually yes. On the 'Fish Upon A Star' site, they had this content on the right side of the list of fish that explained the process of keeping the tank clean and the water at the right salinity and temperature. I'd love to have that so I can put my thoughts in there."
+
+You take notes as he talks and make sure that you jot down the you will need an <aside> element on that page.
+
+Martin frowns quickly, but recovers and says, "Hm, I suppose. Well, just make it look clean and minimal. Maybe when there is more information in the future, I can have you add another page and then I can have a navigation bar."
+
+"Lastly, the 'Buoys and Gills' site had a part that listed travel tips for people who love to scuba and harvest fish. On the page that lists all of the out-of-the-way places I've visited, I would like to provide a few quotes to help people."
+
+"Where would you like that to appear?" you ask briskly.
+
+Martin responds, "Right above the list of locations."
+
+You note that in your journal, then ask, "Ok, I just want to make sure I get this right for you. The details of each fish should include the image, the species, its length, what you named the fish, where you harvested it, and what it eats... is that all correct?"
+
+- image
+- species
+- length
+- martin's name
+- location harvested
+- diet
+
+<aside> explain the process of keeping the tank clean and the water at the right salinity and temperature
+
+list of locations
+
+title
+fish-list
+fish-list__card_image
+fish-list__card_species
+fish-list__card_length
+fish-list__card_name
+fish-list__card_harvest-location
+fish-list__card_diet
+fish-maintenance-info
+fish-maintenance-info__fact
+travel-tips-list
+travel-tips-list__tip
+harvest-location-list
+harvest-location-list__location
