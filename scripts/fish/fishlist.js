@@ -5,25 +5,38 @@ const fishes = getFish()
 
 export const mostHolyFish = () => {
     // 3, 6, 9, 12, etc... fish
-    const holyFish = []
+    const holyFishArray = []
 
     for (const fish of fishes) {
         if (fish.size % 3 === 0) {
-            holyFish.push(fish);
+            holyFishArray.push(fish);
         }
     } 
 
-    return holyFish
+    return holyFishArray;
 }
 
 export const soldierFish = () => {
     // 5, 10, 15, 20, 25, etc... fish
-    return soldiers
+    const soldierFishArray = []
+    for (const fish of fishes) {
+        if (fish.size % 5 === 0) {
+            soldierFishArray.push(fish);
+        }
+        
+    }
+    return soldierFishArray;
 }
 
 export const nonHolyFish = () => {
+    const regularFishArray = [];
     // Any fish not a multiple of 3 or 5
-    return regularFish
+    for (const fish of fishes) {
+        if (fish.size % 3 !== 0 && fish.size % 5 !== 0) {
+            regularFishArray.push(fish);
+        }
+    }
+    return regularFishArray;
 }
 
 export const fishList = () => {
